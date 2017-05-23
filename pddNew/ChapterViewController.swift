@@ -10,6 +10,9 @@ import UIKit
 
 class ChapterViewController: UIViewController {
 
+    var chapterID: Int = 0
+    
+    
     @IBOutlet weak var chapterName: UILabel!
     @IBOutlet weak var chapterDescription: UITextView!
     
