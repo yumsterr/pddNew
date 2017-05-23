@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE28CDBD1EB6408500146BB6 /* ChapterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE28CDBC1EB6408500146BB6 /* ChapterViewController.swift */; };
 		DEACF1A71EB5DC4B00A443FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEACF1A61EB5DC4B00A443FA /* AppDelegate.swift */; };
-		DEACF1A91EB5DC4B00A443FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEACF1A81EB5DC4B00A443FA /* ViewController.swift */; };
 		DEACF1AC1EB5DC4B00A443FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEACF1AA1EB5DC4B00A443FA /* Main.storyboard */; };
 		DEACF1AE1EB5DC4B00A443FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEACF1AD1EB5DC4B00A443FA /* Assets.xcassets */; };
 		DEACF1B11EB5DC4B00A443FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEACF1AF1EB5DC4B00A443FA /* LaunchScreen.storyboard */; };
+		DEACF1B91EB5DE9200A443FA /* RulesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEACF1B81EB5DE9200A443FA /* RulesTableViewController.swift */; };
+		DEACF1BB1EB5DEBC00A443FA /* TestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEACF1BA1EB5DEBC00A443FA /* TestTableViewController.swift */; };
+		DEACF1BD1EB5DEF800A443FA /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEACF1BC1EB5DEF800A443FA /* SettingsViewController.swift */; };
+		DEACF1BF1EB5DF3A00A443FA /* pddRules.plist in Resources */ = {isa = PBXBuildFile; fileRef = DEACF1BE1EB5DF3A00A443FA /* pddRules.plist */; };
+		DEACF1C11EB5DF8E00A443FA /* RulesChaptersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEACF1C01EB5DF8E00A443FA /* RulesChaptersTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE28CDBC1EB6408500146BB6 /* ChapterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChapterViewController.swift; sourceTree = "<group>"; };
 		DEACF1A31EB5DC4B00A443FA /* pddNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pddNew.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEACF1A61EB5DC4B00A443FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DEACF1A81EB5DC4B00A443FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DEACF1AB1EB5DC4B00A443FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DEACF1AD1EB5DC4B00A443FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEACF1B01EB5DC4B00A443FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEACF1B21EB5DC4B00A443FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEACF1B81EB5DE9200A443FA /* RulesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RulesTableViewController.swift; sourceTree = "<group>"; };
+		DEACF1BA1EB5DEBC00A443FA /* TestTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTableViewController.swift; sourceTree = "<group>"; };
+		DEACF1BC1EB5DEF800A443FA /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		DEACF1BE1EB5DF3A00A443FA /* pddRules.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = pddRules.plist; sourceTree = "<group>"; };
+		DEACF1C01EB5DF8E00A443FA /* RulesChaptersTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RulesChaptersTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +65,16 @@
 			isa = PBXGroup;
 			children = (
 				DEACF1A61EB5DC4B00A443FA /* AppDelegate.swift */,
-				DEACF1A81EB5DC4B00A443FA /* ViewController.swift */,
 				DEACF1AA1EB5DC4B00A443FA /* Main.storyboard */,
+				DE28CDBC1EB6408500146BB6 /* ChapterViewController.swift */,
+				DEACF1B81EB5DE9200A443FA /* RulesTableViewController.swift */,
+				DEACF1C01EB5DF8E00A443FA /* RulesChaptersTableViewCell.swift */,
+				DEACF1BA1EB5DEBC00A443FA /* TestTableViewController.swift */,
+				DEACF1BC1EB5DEF800A443FA /* SettingsViewController.swift */,
 				DEACF1AD1EB5DC4B00A443FA /* Assets.xcassets */,
 				DEACF1AF1EB5DC4B00A443FA /* LaunchScreen.storyboard */,
 				DEACF1B21EB5DC4B00A443FA /* Info.plist */,
+				DEACF1BE1EB5DF3A00A443FA /* pddRules.plist */,
 			);
 			path = pddNew;
 			sourceTree = "<group>";
@@ -127,6 +142,7 @@
 				DEACF1B11EB5DC4B00A443FA /* LaunchScreen.storyboard in Resources */,
 				DEACF1AE1EB5DC4B00A443FA /* Assets.xcassets in Resources */,
 				DEACF1AC1EB5DC4B00A443FA /* Main.storyboard in Resources */,
+				DEACF1BF1EB5DF3A00A443FA /* pddRules.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +153,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEACF1A91EB5DC4B00A443FA /* ViewController.swift in Sources */,
 				DEACF1A71EB5DC4B00A443FA /* AppDelegate.swift in Sources */,
+				DEACF1C11EB5DF8E00A443FA /* RulesChaptersTableViewCell.swift in Sources */,
+				DE28CDBD1EB6408500146BB6 /* ChapterViewController.swift in Sources */,
+				DEACF1B91EB5DE9200A443FA /* RulesTableViewController.swift in Sources */,
+				DEACF1BB1EB5DEBC00A443FA /* TestTableViewController.swift in Sources */,
+				DEACF1BD1EB5DEF800A443FA /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +324,7 @@
 				DEACF1B71EB5DC4B00A443FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
